@@ -118,6 +118,6 @@ st.download_button(
 
 # --- Email Sending Section ---
 st.subheader("📧 Email this Report")
-email = st.text_input("Enter your email to receive the report (feature requires SMTP setup)", placeholder="example@email.com")
+email = st.text_input("Enter your email to receive the report", placeholder="example@email.com")
 if st.button("Send Email (requires SMTP setup in code)"):
     st.warning("📬 Email feature is not live in this app. Set up SMTP credentials in local environment to use.")
