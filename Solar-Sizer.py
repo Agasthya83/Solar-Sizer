@@ -3,7 +3,6 @@ import math
 from io import BytesIO
 from fpdf import FPDF
 import datetime
-import matplotlib.pyplot as plt
 
 # --- Page Configuration ---
 st.set_page_config(page_title="Advanced Solar Sizing Tool", layout="centered")
